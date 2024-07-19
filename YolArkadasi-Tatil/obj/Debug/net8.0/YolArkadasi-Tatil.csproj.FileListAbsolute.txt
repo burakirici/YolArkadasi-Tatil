@@ -1,0 +1,10 @@
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.AssemblyInfoInputs.cache
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.AssemblyInfo.cs
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.csproj.CoreCompileInputs.cache
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/bin/Debug/net8.0/YolArkadasi-Tatil
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/bin/Debug/net8.0/YolArkadasi-Tatil.dll
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/bin/Debug/net8.0/YolArkadasi-Tatil.pdb
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.dll
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/refint/YolArkadasi-Tatil.dll
+/Users/burakkirici/Desktop/Çalışamalar/YolArkadasi-Tatil/YolArkadasi-Tatil/obj/Debug/net8.0/YolArkadasi-Tatil.pdb
