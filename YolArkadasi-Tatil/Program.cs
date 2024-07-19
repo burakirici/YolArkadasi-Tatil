@@ -5,12 +5,13 @@ namespace SeyahatUygulamasi
     {
 static void Main(string[] args)
 {
-    tekrarPlanla();
+    tekrarPlanla();        // Kullanıcı yeniden tatil planlamak isterse uygulamayı bastan baslatmak icin fonksiyon tanımlıyoruz.
     
 }
 static void tekrarPlanla()
 {
     int tutar = 0;
+    // Kullanıcıdan Lokasyonu secmesini istiyoruz.(Fiyat belirterek)
 Console.WriteLine("Lutfen gitmek istediginiz lokasyonu seciniz: ");
 
 System.Console.WriteLine("1 - Bodrum(Paket Baslangic Fiyati 4000TL) ");
@@ -20,7 +21,7 @@ System.Console.WriteLine("2 - Marmaris(Paket Baslangic Fiyati 3000TL) ");
 System.Console.WriteLine("3 - Çeşme(Paket Baslangic Fiyati 5000TL) ");
 
 string secim = (Console.ReadLine().ToLower());
-
+// Kullanıcının lokasyon secimini alıp sectigi lokasyona gore tutar degiskenine ucreti ekliyoruz.
 switch (secim)
 {
     case "bodrum":
@@ -40,7 +41,7 @@ switch (secim)
     secim = Console.ReadLine();
     break;
 }
-
+// Kac kisilik tatil planladıklarını sorup,  degeri bir degiskene atıyoruz ve sectikleri lokasyonda yapabilecekleri hakkinda biraz bilgi veriyoruz.
 Console.WriteLine("Kac kisilik bir tatil planlamak istiyorsunuz? ");
 int kisiSayisi = int.Parse(Console.ReadLine());
 if (secim == "bodrum")
@@ -55,6 +56,7 @@ else
 {
 Console.WriteLine("Secim yaptiginiz icin tesekkurler.Iste cesme tatilinde yapabilecekleriniz:\n plajlar ve Deniz Keyfi: Bodrum'un güzel plajlarında denize girebilir, güneşlenebilir ve su sporları yapabilirsiniz. Bitez, Gümüşlük ve Ortakent gibi popüler plajları ziyaret edebilirsiniz.Tarihi Yerler: Bodrum Kalesi, Antik Tiyatro ve Mausoleum gibi tarihi yerleri gezebilirsiniz. Ayrıca, Bodrum Sualtı Arkeoloji Müzesi de oldukça ilgi çekicidir.Gece Hayatı: Bodrum, canlı gece hayatı ile ünlüdür. Barlar Sokağı'nda eğlenebilir, çeşitli barlar ve kulüplerde keyifli vakit geçirebilirsiniz.Yat Turları: Günlük tekne turları ile Bodrum'un koylarını keşfedebilir, mavi tur deneyimi yaşayabilirsiniz. Özellikle Kos ve Kalymnos gibi yakın Yunan adalarına yapılan turlar popülerdir.");
 }
+    // Kullanıcının secmek istedigi ulasim yolunu yazdırıyoruz ve cevabı bir degiskene atıyoruz ardından ulasim tutarinida tutar degiskenine ekliyoruz.
 Console.WriteLine($"Sectiginiz {secim} Lokasyonuna Hangi Ulasim yolu ile gitmek istersiniz?");
 Console.WriteLine("1- Kara Yolu (Kisi basi ulasim tutari gidis-donus 1500 TL)\n2- Hava yolu (Kisi basi ulasim tutari gidis-donus 4000TL)\nLutfen yukaridaki seceneklerden bir tanesini seciniz.(1 veya 2 tuslayarak)");
 int ulasimYolu = int.Parse(Console.ReadLine());
@@ -72,7 +74,7 @@ switch (ulasimYolu)
     break;
 }
 Console.WriteLine("Sectiginiz lokasyon, kisi sayisi ve ulasim yoluna gore toplam fiyat: "+ (tutar * kisiSayisi));
-
+//Tatili tekrar planlamak isteyip istemediklerini sorup cevaba gore programı yeniden baslatiyoruz veya bitiriyoruz.
 Console.WriteLine("Baska bir tatil planlamak istiyor musunuz?(Evet/Hayır)");
 string tekrarPlanlaCevap = Console.ReadLine().ToLower();
 
